@@ -114,7 +114,7 @@ segment(toptab, bottab, ltoptab, lbottab, k=1)
 This implementation follows the classical construction of Rauzy-Veech induction as described in:
 
 - **Yoccoz, J.-C.** — *Échanges d'intervalles*, Cours du Collège de France (2005)
-- **Viana, M.** — *Ergodic Theory of Interval Exchange Maps*, Revista Matemática Complutense (2006)
+- **S. Marmi, P. Moussa, J-C Yoccoz** — *Affine interval exchanges maps with a wandering interval* (2009) 
 
 The algorithm operates on a **zippered rectangle** representation and tracks both the combinatorial data (permutations) and the metric data (lengths) simultaneously.
 
