@@ -15,7 +15,7 @@ An **interval exchange transformation** (IET) is defined by a permutation of sub
 
 This process reveals the arithmetic and dynamical nature of the IET:
 - **periodic orbit** → the induction cycle closes after finitely many steps
-- **irrational rotation number** → the algorithm runs indefinitely without cycling
+- **irrational rotation number** → the algorithm runs periodically
 
 ---
 
@@ -116,13 +116,11 @@ This implementation follows the classical construction of Rauzy-Veech induction 
 - **Yoccoz, J.-C.** — *Échanges d'intervalles*, Cours du Collège de France (2005)
 - **S. Marmi, P. Moussa, J-C Yoccoz** — *Affine interval exchanges maps with a wandering interval* (2009) 
 
-The algorithm operates on a **zippered rectangle** representation and tracks both the combinatorial data (permutations) and the metric data (lengths) simultaneously.
-
 ---
 
 ## Author
 
-**Théo F.**
+**Théo V.**
 — Feel free to reach out via [LinkedIn](https://linkedin.com/in/your-profile) or [email](mailto:your@email.com)
 
 ---
