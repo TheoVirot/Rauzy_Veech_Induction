@@ -79,8 +79,8 @@ At each step, a plot of the interval partition is displayed.
 
 ### Example output
 
-```
 ![Demo of the Rauzy-Veech induction steps](assets/RV.gif)
+```
 Parameters: beta = 3/8, lambda = 3/2
 Irrational rotation number
 ```
