@@ -61,6 +61,7 @@ pip install matplotlib
 ```bash
 python Essais_v1_1_2.py
 ```
+The example consider, called  (β,λ) examples where β lies in (0,1) and 0<λ<1
 
 This runs the induction for fixed parameters `β = 3/8` and `λ = 3/2`, iterating until:
 - the configuration returns to its initial state (periodic orbit), or
@@ -72,7 +73,7 @@ At each step, a plot of the interval partition is displayed.
 ### Example output
 
 ```
-Parameters: beta = 3/8, lambda = 3/2
+![Parameters: beta = 3/8, lambda = 3/2](RV.gif)
 Irrational rotation number
 ```
 
@@ -104,7 +105,7 @@ segment(toptab, bottab, ltoptab, lbottab, k=1)
 |-----------|-------------|
 | `toptab` / `bottab` | Permutations defining the IET (as integer arrays) |
 | `ltoptab` / `lbottab` | Lengths of top/bottom intervals (`fractions.Fraction`) |
-| `beta` (α) | Parameter controlling the slope of the piecewise affine map |
+| `beta` (β) | Parameter controlling the second breakpoint of the piecewise affine map |
 | `lambda` (λ) | Slope parameter |
 
 ---
