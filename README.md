@@ -113,8 +113,12 @@ segment(toptab, bottab, ltoptab, lbottab, k=1)
 |-----------|-------------|
 | `toptab` / `bottab` | Permutations defining the IET (as integer arrays) |
 | `ltoptab` / `lbottab` | Lengths of top/bottom intervals (`fractions.Fraction`) |
-| `beta` (β) | Parameter controlling the second breakpoint of the piecewise affine map |
-| `lambda` (λ) | Slope parameter |
+
+---
+
+## What this program allowed and what after ? 
+
+We obtained new examples of rationnal piecewise linear maps of the circle with irrational rotation number. We also studied, while not included in this project, the case of AIET with algebraic numbers as parameters. An interesting next step would be to implement the case of piecewise PLS(2,Z) or PSL(2,k) IET.  
 
 ---
 
