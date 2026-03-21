@@ -61,8 +61,12 @@ pip install matplotlib
 ```bash
 python Essais_v1_1_2.py
 ```
-The example consider, called  (β,λ) examples where β lies in (0,1) and 0<λ<1
+The example consider, called  (β,λ) examples where β lies in (0,1) and λ>1, consists in the only piecewise linear homeomorphism of the circle that:
+- has exactly three breakpoints including 0 and β,
+- has slope 1 on a right neighbourhood of 0 and slope λ on [β,0]
+- sends the brekapoint between 0 and β onto 0.
 
+      
 This runs the induction for fixed parameters `β = 3/8` and `λ = 3/2`, iterating until:
 - the configuration returns to its initial state (periodic orbit), or
 - the configuration reaches the zero vector (irrational rotation number), or
