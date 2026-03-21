@@ -116,9 +116,9 @@ segment(toptab, bottab, ltoptab, lbottab, k=1)
 
 ---
 
-## What this program allowed and what after ? 
+## Results and perspective ? 
 
-We obtained new examples of rationnal piecewise linear maps of the circle with irrational rotation number. We also studied, while not included in this project, the case of AIET with algebraic numbers as parameters. An interesting next step would be to implement the case of piecewise PLS(2,Z) or PSL(2,k) IET.  
+We obtained new examples of rational piecewise linear maps of the circle with irrational rotation number. We also studied, while not included in this project, the case of AIET with algebraic numbers as parameters. An interesting next step would be to implement the case of piecewise PSL(2,Z) or PSL(2,k) IET.  
 
 ---
 
