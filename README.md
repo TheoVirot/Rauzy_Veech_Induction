@@ -7,7 +7,6 @@
 
 A Python implementation of the **Rauzy-Veech induction** — a renormalization algorithm on interval exchange transformations (IETs), central to the study of translation surfaces and ergodic theory.
 
-![Demo of the Rauzy-Veech induction steps](assets/RV.gif)
 
 ---
 
@@ -81,6 +80,7 @@ At each step, a plot of the interval partition is displayed.
 ### Example output
 
 ```
+![Demo of the Rauzy-Veech induction steps](assets/RV.gif)
 Parameters: beta = 3/8, lambda = 3/2
 Irrational rotation number
 ```
