@@ -134,7 +134,7 @@ This implementation follows the classical construction of Rauzy-Veech induction 
 ## Author
 
 **Théo V.**  
-Feel free to reach out via [LinkedIn](https://linkedin.com/in/your-profile) or [email](mailto:your@email.com)
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/th%C3%A9o-virot-6aa82b269) or [email](mailto:your@email.com)
 
 ---
 
