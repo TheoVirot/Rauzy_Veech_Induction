@@ -1,4 +1,4 @@
-# Rauzy-Veech Induction
+# Rauzy-Veech Induction for affine interval exchanges
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Math](https://img.shields.io/badge/domain-Ergodic%20Theory-purple)
@@ -25,7 +25,6 @@ This process reveals the arithmetic and dynamical nature of the IET:
 - Detection of **periodic orbits** and **irrational rotation numbers**
 - Automatic **normalization** of interval lengths at each step
 - **Visualization** of the top/bottom interval partitions at each iteration using `matplotlib`
-- Interactive parameter input via `tkinter` dialogs
 - Example script with hardcoded parameters for quick testing
 
 ---
@@ -36,7 +35,8 @@ This process reveals the arithmetic and dynamical nature of the IET:
 .
 ├── Rauzy_Veech.py     # Core algorithm: one step of the induction, normalization, helpers
 ├── segments.py        # Visualization: plots the top/bottom interval decomposition
-├── Essais_v1_1_2.py   # Example: runs the induction loop for fixed β and λ
+├── Essais_v1_1_2.py   # Example: runs the induction loop for (β,λ) examples
+├── Essais             # Tests: Returns a text document with the Rauzy Veech Induction applied to a family of (β,λ) examples
 └── README.md
 ```
 
