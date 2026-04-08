@@ -71,8 +71,8 @@ The **(β, λ) example** consists of the only piecewise linear homeomorphism of 
 - sends the breakpoint between 0 and β onto 0.
 
 This runs the induction for fixed parameters `β = 3/8` and `λ = 3/2`, iterating until:
-- the configuration returns to its initial state (periodic orbit), or
-- the configuration reaches the zero vector (irrational rotation number), or
+- the configuration returns to its initial state (irrational rotation number orbit), or
+- stops when a connection is discovered (periodic orbit), or
 - the maximum of 25 iterations is reached.
 
 At each step, a plot of the interval partition is displayed.
